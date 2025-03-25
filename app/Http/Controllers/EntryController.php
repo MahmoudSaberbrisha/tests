@@ -35,7 +35,7 @@ class EntryController extends Controller
             'reference' => 'required|string',
             'debit' => 'required|numeric',
             'credit' => 'required|numeric',
-            'totel' => 'required|numeric',
+            'total' => 'required|numeric',
         ]);
 
         Entry::create($request->all());
