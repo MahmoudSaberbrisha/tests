@@ -29,9 +29,7 @@
             const newRow = document.createElement('tr');
 
             newRow.innerHTML = `
-                <td class="border border-gray-300 py-2 px-4">
-                    <input type="text" class="border border-gray-300 rounded py-2 px-4 w-full">
-                </td>
+
                 <td class="border border-gray-300 py-2 px-4">
                     <input type="text" class="border border-gray-300 rounded py-2 px-4 w-full">
                 </td>
